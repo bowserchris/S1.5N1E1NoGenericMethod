@@ -4,16 +4,16 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		NoGenericMethods<String> stringObjects = new NoGenericMethods<>("hello", "whats", "up");
+		NoGenericMethods<String> string1 = new NoGenericMethods<>("hello", "whats", "up");
 		
-		NoGenericMethods<Integer> intObjects = new NoGenericMethods<>(1, 2, 3);
+		NoGenericMethods<String> string2 = new NoGenericMethods<>("i", "did", "this");
 		
-		NoGenericMethods<Double> doubleObjects = new NoGenericMethods<>(1.5, 12.45, 123.55555);
+		NoGenericMethods<String> string3 = new NoGenericMethods<>("a", "bit", "different");
 		
 		
-		System.out.println(stringObjects);
-		System.out.println(intObjects);
-		System.out.println(doubleObjects);
+		System.out.println(string1);
+		System.out.println(string2);
+		System.out.println(string3);
 	}
 
 }

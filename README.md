@@ -1,4 +1,4 @@
-# S1.5N1E1NoGenericMethod
+# S1.6N1E1NoGenericMethod
 Create a class that holds 3 objects and is able to retrieve them.
 
 Believe ive created this as generic and not nonGenerica as requested. 
